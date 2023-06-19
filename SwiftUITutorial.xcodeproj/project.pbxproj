@@ -21,6 +21,17 @@
 		1DB8E7EB2A3DC49400DF1AF9 /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB8E7EA2A3DC49400DF1AF9 /* Header.swift */; };
 		1DB8E7ED2A3DC4CF00DF1AF9 /* List.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB8E7EC2A3DC4CF00DF1AF9 /* List.swift */; };
 		1DB8E7EF2A3DC51B00DF1AF9 /* Products.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB8E7EE2A3DC51B00DF1AF9 /* Products.swift */; };
+		1DB8E7F22A40B57800DF1AF9 /* StateIntro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB8E7F12A40B57800DF1AF9 /* StateIntro.swift */; };
+		1DB8E7F42A40B62B00DF1AF9 /* ButtonElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB8E7F32A40B62B00DF1AF9 /* ButtonElement.swift */; };
+		1DB8E7F62A40B72E00DF1AF9 /* StateArraySample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB8E7F52A40B72E00DF1AF9 /* StateArraySample.swift */; };
+		1DB8E7F82A40B7B700DF1AF9 /* ListElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB8E7F72A40B7B700DF1AF9 /* ListElement.swift */; };
+		1DB8E7FA2A40BB2200DF1AF9 /* StateArraySample2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB8E7F92A40BB2200DF1AF9 /* StateArraySample2.swift */; };
+		1DB8E7FC2A40BBF800DF1AF9 /* StateArraySample3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB8E7FB2A40BBF800DF1AF9 /* StateArraySample3.swift */; };
+		1DB8E7FE2A40C1FD00DF1AF9 /* StateArraySample4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB8E7FD2A40C1FD00DF1AF9 /* StateArraySample4.swift */; };
+		1DB8E8002A40C2E500DF1AF9 /* CounterState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB8E7FF2A40C2E500DF1AF9 /* CounterState.swift */; };
+		1DB8E8022A40C3B300DF1AF9 /* StateArraySample5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB8E8012A40C3B300DF1AF9 /* StateArraySample5.swift */; };
+		1DB8E8042A40C4E900DF1AF9 /* StateDesignSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB8E8032A40C4E900DF1AF9 /* StateDesignSample.swift */; };
+		1DB8E8062A40C68900DF1AF9 /* StateDesignSample2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB8E8052A40C68900DF1AF9 /* StateDesignSample2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +50,17 @@
 		1DB8E7EA2A3DC49400DF1AF9 /* Header.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Header.swift; sourceTree = "<group>"; };
 		1DB8E7EC2A3DC4CF00DF1AF9 /* List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = List.swift; sourceTree = "<group>"; };
 		1DB8E7EE2A3DC51B00DF1AF9 /* Products.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Products.swift; sourceTree = "<group>"; };
+		1DB8E7F12A40B57800DF1AF9 /* StateIntro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateIntro.swift; sourceTree = "<group>"; };
+		1DB8E7F32A40B62B00DF1AF9 /* ButtonElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonElement.swift; sourceTree = "<group>"; };
+		1DB8E7F52A40B72E00DF1AF9 /* StateArraySample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateArraySample.swift; sourceTree = "<group>"; };
+		1DB8E7F72A40B7B700DF1AF9 /* ListElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListElement.swift; sourceTree = "<group>"; };
+		1DB8E7F92A40BB2200DF1AF9 /* StateArraySample2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateArraySample2.swift; sourceTree = "<group>"; };
+		1DB8E7FB2A40BBF800DF1AF9 /* StateArraySample3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateArraySample3.swift; sourceTree = "<group>"; };
+		1DB8E7FD2A40C1FD00DF1AF9 /* StateArraySample4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateArraySample4.swift; sourceTree = "<group>"; };
+		1DB8E7FF2A40C2E500DF1AF9 /* CounterState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterState.swift; sourceTree = "<group>"; };
+		1DB8E8012A40C3B300DF1AF9 /* StateArraySample5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateArraySample5.swift; sourceTree = "<group>"; };
+		1DB8E8032A40C4E900DF1AF9 /* StateDesignSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateDesignSample.swift; sourceTree = "<group>"; };
+		1DB8E8052A40C68900DF1AF9 /* StateDesignSample2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateDesignSample2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +93,7 @@
 		1D2038842A38DC0C00BE49A2 /* SwiftUITutorial */ = {
 			isa = PBXGroup;
 			children = (
+				1DB8E7F02A40B54400DF1AF9 /* StateSamples */,
 				1DB8E7DE2A3D95FE00DF1AF9 /* TemplateSamples */,
 				1D2038932A38EBD600BE49A2 /* UIElements */,
 				1D2038852A38DC0C00BE49A2 /* SwiftUITutorialApp.swift */,
@@ -96,6 +119,8 @@
 				1D2038962A38EC9500BE49A2 /* TextElement.swift */,
 				1DB8E7E52A3DA70A00DF1AF9 /* ImageElement.swift */,
 				1DB8E7E72A3DB4CB00DF1AF9 /* ZSample.swift */,
+				1DB8E7F32A40B62B00DF1AF9 /* ButtonElement.swift */,
+				1DB8E7F72A40B7B700DF1AF9 /* ListElement.swift */,
 			);
 			path = UIElements;
 			sourceTree = "<group>";
@@ -119,6 +144,22 @@
 				1DB8E7EE2A3DC51B00DF1AF9 /* Products.swift */,
 			);
 			path = Template2;
+			sourceTree = "<group>";
+		};
+		1DB8E7F02A40B54400DF1AF9 /* StateSamples */ = {
+			isa = PBXGroup;
+			children = (
+				1DB8E7F12A40B57800DF1AF9 /* StateIntro.swift */,
+				1DB8E7F52A40B72E00DF1AF9 /* StateArraySample.swift */,
+				1DB8E7F92A40BB2200DF1AF9 /* StateArraySample2.swift */,
+				1DB8E7FB2A40BBF800DF1AF9 /* StateArraySample3.swift */,
+				1DB8E7FD2A40C1FD00DF1AF9 /* StateArraySample4.swift */,
+				1DB8E7FF2A40C2E500DF1AF9 /* CounterState.swift */,
+				1DB8E8012A40C3B300DF1AF9 /* StateArraySample5.swift */,
+				1DB8E8032A40C4E900DF1AF9 /* StateDesignSample.swift */,
+				1DB8E8052A40C68900DF1AF9 /* StateDesignSample2.swift */,
+			);
+			path = StateSamples;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,14 +234,25 @@
 			files = (
 				1DB8E7EB2A3DC49400DF1AF9 /* Header.swift in Sources */,
 				1D2038882A38DC0C00BE49A2 /* ContentView.swift in Sources */,
+				1DB8E8022A40C3B300DF1AF9 /* StateArraySample5.swift in Sources */,
+				1DB8E7FE2A40C1FD00DF1AF9 /* StateArraySample4.swift in Sources */,
+				1DB8E7F82A40B7B700DF1AF9 /* ListElement.swift in Sources */,
 				1DB8E7E02A3D961300DF1AF9 /* Template1.swift in Sources */,
 				1DB8E7E62A3DA70A00DF1AF9 /* ImageElement.swift in Sources */,
+				1DB8E8062A40C68900DF1AF9 /* StateDesignSample2.swift in Sources */,
+				1DB8E8002A40C2E500DF1AF9 /* CounterState.swift in Sources */,
+				1DB8E7F22A40B57800DF1AF9 /* StateIntro.swift in Sources */,
 				1D2038952A38EC0F00BE49A2 /* VHStackSample.swift in Sources */,
 				1DB8E7E42A3DA65E00DF1AF9 /* Template2.swift in Sources */,
 				1DB8E7ED2A3DC4CF00DF1AF9 /* List.swift in Sources */,
+				1DB8E7FA2A40BB2200DF1AF9 /* StateArraySample2.swift in Sources */,
+				1DB8E7F42A40B62B00DF1AF9 /* ButtonElement.swift in Sources */,
+				1DB8E7F62A40B72E00DF1AF9 /* StateArraySample.swift in Sources */,
+				1DB8E8042A40C4E900DF1AF9 /* StateDesignSample.swift in Sources */,
 				1D2038862A38DC0C00BE49A2 /* SwiftUITutorialApp.swift in Sources */,
 				1D2038972A38EC9500BE49A2 /* TextElement.swift in Sources */,
 				1DB8E7EF2A3DC51B00DF1AF9 /* Products.swift in Sources */,
+				1DB8E7FC2A40BBF800DF1AF9 /* StateArraySample3.swift in Sources */,
 				1DB8E7E22A3DA18500DF1AF9 /* PaddingSample.swift in Sources */,
 				1DB8E7E82A3DB4CB00DF1AF9 /* ZSample.swift in Sources */,
 			);
