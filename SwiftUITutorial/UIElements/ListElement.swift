@@ -12,13 +12,8 @@ struct ListElement: View {
     var names = ["Çağatay", "Hasan", "Ayça", "İlayda"]
     
     var body: some View {
-           List {
-               Text("Item 1")
-               Text("Item 2")
-               Text("Item 3")
-               Text("Item 4")
-               Text("Item 5")
-           }
+         
+        Image(systemName: "star")
        }
 }
 
