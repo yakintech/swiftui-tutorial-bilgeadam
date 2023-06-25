@@ -32,6 +32,9 @@
 		1D43AFD12A44AF2000AB8903 /* InputSample2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D43AFD02A44AF2000AB8903 /* InputSample2.swift */; };
 		1D43AFD32A44B08A00AB8903 /* InputSample3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D43AFD22A44B08A00AB8903 /* InputSample3.swift */; };
 		1D43AFD52A44B3B900AB8903 /* InputArraySample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D43AFD42A44B3B900AB8903 /* InputArraySample.swift */; };
+		1D7A90FE2A48381C00362507 /* TwitLikeSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D7A90FD2A48381C00362507 /* TwitLikeSample.swift */; };
+		1D7A91002A483F6000362507 /* SliderSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D7A90FF2A483F6000362507 /* SliderSample.swift */; };
+		1D7A91032A48426400362507 /* TicTacToeGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D7A91022A48426400362507 /* TicTacToeGame.swift */; };
 		1DB8E7E02A3D961300DF1AF9 /* Template1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB8E7DF2A3D961300DF1AF9 /* Template1.swift */; };
 		1DB8E7E22A3DA18500DF1AF9 /* PaddingSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB8E7E12A3DA18500DF1AF9 /* PaddingSample.swift */; };
 		1DB8E7E42A3DA65E00DF1AF9 /* Template2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB8E7E32A3DA65E00DF1AF9 /* Template2.swift */; };
@@ -54,6 +57,10 @@
 		1DE7A4FD2A4826AA00A8E570 /* TwitModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE7A4FC2A4826AA00A8E570 /* TwitModel.swift */; };
 		1DE7A5012A48271700A8E570 /* TwitterHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE7A5002A48271700A8E570 /* TwitterHeader.swift */; };
 		1DE7A5032A4827CE00A8E570 /* TwitterMainScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE7A5022A4827CE00A8E570 /* TwitterMainScreen.swift */; };
+		1DE7A5052A4831D500A8E570 /* TwitUserHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE7A5042A4831D500A8E570 /* TwitUserHeader.swift */; };
+		1DE7A5072A48320700A8E570 /* TwitContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE7A5062A48320700A8E570 /* TwitContent.swift */; };
+		1DE7A5092A48322700A8E570 /* TwitFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE7A5082A48322700A8E570 /* TwitFooter.swift */; };
+		1DE7A50B2A48348A00A8E570 /* TwitBOX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE7A50A2A48348A00A8E570 /* TwitBOX.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -83,6 +90,9 @@
 		1D43AFD02A44AF2000AB8903 /* InputSample2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputSample2.swift; sourceTree = "<group>"; };
 		1D43AFD22A44B08A00AB8903 /* InputSample3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputSample3.swift; sourceTree = "<group>"; };
 		1D43AFD42A44B3B900AB8903 /* InputArraySample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputArraySample.swift; sourceTree = "<group>"; };
+		1D7A90FD2A48381C00362507 /* TwitLikeSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitLikeSample.swift; sourceTree = "<group>"; };
+		1D7A90FF2A483F6000362507 /* SliderSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderSample.swift; sourceTree = "<group>"; };
+		1D7A91022A48426400362507 /* TicTacToeGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicTacToeGame.swift; sourceTree = "<group>"; };
 		1DB8E7DF2A3D961300DF1AF9 /* Template1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Template1.swift; sourceTree = "<group>"; };
 		1DB8E7E12A3DA18500DF1AF9 /* PaddingSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddingSample.swift; sourceTree = "<group>"; };
 		1DB8E7E32A3DA65E00DF1AF9 /* Template2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Template2.swift; sourceTree = "<group>"; };
@@ -105,6 +115,10 @@
 		1DE7A4FC2A4826AA00A8E570 /* TwitModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitModel.swift; sourceTree = "<group>"; };
 		1DE7A5002A48271700A8E570 /* TwitterHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterHeader.swift; sourceTree = "<group>"; };
 		1DE7A5022A4827CE00A8E570 /* TwitterMainScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterMainScreen.swift; sourceTree = "<group>"; };
+		1DE7A5042A4831D500A8E570 /* TwitUserHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitUserHeader.swift; sourceTree = "<group>"; };
+		1DE7A5062A48320700A8E570 /* TwitContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitContent.swift; sourceTree = "<group>"; };
+		1DE7A5082A48322700A8E570 /* TwitFooter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitFooter.swift; sourceTree = "<group>"; };
+		1DE7A50A2A48348A00A8E570 /* TwitBOX.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitBOX.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +151,7 @@
 		1D2038842A38DC0C00BE49A2 /* SwiftUITutorial */ = {
 			isa = PBXGroup;
 			children = (
+				1D7A91012A48425A00362507 /* Games */,
 				1DE7A4FA2A48257B00A8E570 /* CloneTemplates */,
 				1D37BE272A48201C001AEE30 /* StructSample */,
 				1D37BE202A46FB0D001AEE30 /* TimerSample */,
@@ -184,6 +199,7 @@
 				1D37BE1A2A46EFDC001AEE30 /* RandomSizeButton.swift */,
 				1D37BE1C2A46F2F4001AEE30 /* DiceRoller.swift */,
 				1D37BE1E2A46F973001AEE30 /* ToggleSample.swift */,
+				1D7A90FF2A483F6000362507 /* SliderSample.swift */,
 			);
 			path = IntroSamples;
 			sourceTree = "<group>";
@@ -215,6 +231,14 @@
 				1D37BE0D2A46D184001AEE30 /* ProductListSample.swift */,
 			);
 			path = StateInputSample;
+			sourceTree = "<group>";
+		};
+		1D7A91012A48425A00362507 /* Games */ = {
+			isa = PBXGroup;
+			children = (
+				1D7A91022A48426400362507 /* TicTacToeGame.swift */,
+			);
+			path = Games;
 			sourceTree = "<group>";
 		};
 		1DB8E7DE2A3D95FE00DF1AF9 /* TemplateSamples */ = {
@@ -254,6 +278,7 @@
 				1D43AFCB2A44AB0E00AB8903 /* StateInputSample.swift */,
 				1D37BE232A46FC44001AEE30 /* ImageGallery.swift */,
 				1D37BE252A46FDA0001AEE30 /* ImageButton.swift */,
+				1D7A90FD2A48381C00362507 /* TwitLikeSample.swift */,
 			);
 			path = StateSamples;
 			sourceTree = "<group>";
@@ -272,6 +297,10 @@
 				1DE7A4FC2A4826AA00A8E570 /* TwitModel.swift */,
 				1DE7A5002A48271700A8E570 /* TwitterHeader.swift */,
 				1DE7A5022A4827CE00A8E570 /* TwitterMainScreen.swift */,
+				1DE7A5042A4831D500A8E570 /* TwitUserHeader.swift */,
+				1DE7A5062A48320700A8E570 /* TwitContent.swift */,
+				1DE7A5082A48322700A8E570 /* TwitFooter.swift */,
+				1DE7A50A2A48348A00A8E570 /* TwitBOX.swift */,
 			);
 			path = Twitter;
 			sourceTree = "<group>";
@@ -357,6 +386,8 @@
 				1D37BE122A46DC29001AEE30 /* RandomImage.swift in Sources */,
 				1DB8E8062A40C68900DF1AF9 /* StateDesignSample2.swift in Sources */,
 				1DB8E8002A40C2E500DF1AF9 /* CounterState.swift in Sources */,
+				1DE7A5072A48320700A8E570 /* TwitContent.swift in Sources */,
+				1D7A90FE2A48381C00362507 /* TwitLikeSample.swift in Sources */,
 				1DB8E7F22A40B57800DF1AF9 /* StateIntro.swift in Sources */,
 				1D43AFD52A44B3B900AB8903 /* InputArraySample.swift in Sources */,
 				1D2038952A38EC0F00BE49A2 /* VHStackSample.swift in Sources */,
@@ -379,9 +410,14 @@
 				1DE7A5032A4827CE00A8E570 /* TwitterMainScreen.swift in Sources */,
 				1DE7A5012A48271700A8E570 /* TwitterHeader.swift in Sources */,
 				1DE7A4FD2A4826AA00A8E570 /* TwitModel.swift in Sources */,
+				1DE7A50B2A48348A00A8E570 /* TwitBOX.swift in Sources */,
+				1DE7A5092A48322700A8E570 /* TwitFooter.swift in Sources */,
+				1DE7A5052A4831D500A8E570 /* TwitUserHeader.swift in Sources */,
 				1D37BE0C2A46CF92001AEE30 /* NameListSample.swift in Sources */,
 				1DB8E7EF2A3DC51B00DF1AF9 /* Products.swift in Sources */,
+				1D7A91032A48426400362507 /* TicTacToeGame.swift in Sources */,
 				1D43AFD12A44AF2000AB8903 /* InputSample2.swift in Sources */,
+				1D7A91002A483F6000362507 /* SliderSample.swift in Sources */,
 				1D43AFCC2A44AB0E00AB8903 /* StateInputSample.swift in Sources */,
 				1DB8E7FC2A40BBF800DF1AF9 /* StateArraySample3.swift in Sources */,
 				1D37BE192A46EBD8001AEE30 /* ListSearchSample.swift in Sources */,

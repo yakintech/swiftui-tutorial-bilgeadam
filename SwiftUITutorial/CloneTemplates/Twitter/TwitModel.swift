@@ -9,13 +9,14 @@ import Foundation
 
 
 struct TwitModel{
-    var id:Int
-    var profileImage:String
-    var fullName:String
-    var userName:String
-    var twitContent:String
-    var twitDate:String
-    var commentCount: Int
-    var rtCount: Int
-    var likeCount: Int
+    var id:Int = 0
+    var profileImage:String = ""
+    var fullName:String = ""
+    var userName:String = ""
+    var twitContent:String = ""
+    var twitDate:String = ""
+    var commentCount: String = "0"
+    var rtCount: String = "0"
+    var likeCount: String = "0"
+    var shareCount: String = "0"
 }
