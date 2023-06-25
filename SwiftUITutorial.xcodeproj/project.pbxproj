@@ -26,6 +26,7 @@
 		1D37BE1F2A46F973001AEE30 /* ToggleSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D37BE1E2A46F973001AEE30 /* ToggleSample.swift */; };
 		1D37BE242A46FC44001AEE30 /* ImageGallery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D37BE232A46FC44001AEE30 /* ImageGallery.swift */; };
 		1D37BE262A46FDA0001AEE30 /* ImageButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D37BE252A46FDA0001AEE30 /* ImageButton.swift */; };
+		1D37BE292A48202B001AEE30 /* StructSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D37BE282A48202B001AEE30 /* StructSample.swift */; };
 		1D43AFCC2A44AB0E00AB8903 /* StateInputSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D43AFCB2A44AB0E00AB8903 /* StateInputSample.swift */; };
 		1D43AFCF2A44AD7000AB8903 /* InputSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D43AFCE2A44AD7000AB8903 /* InputSample.swift */; };
 		1D43AFD12A44AF2000AB8903 /* InputSample2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D43AFD02A44AF2000AB8903 /* InputSample2.swift */; };
@@ -50,6 +51,9 @@
 		1DB8E8022A40C3B300DF1AF9 /* StateArraySample5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB8E8012A40C3B300DF1AF9 /* StateArraySample5.swift */; };
 		1DB8E8042A40C4E900DF1AF9 /* StateDesignSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB8E8032A40C4E900DF1AF9 /* StateDesignSample.swift */; };
 		1DB8E8062A40C68900DF1AF9 /* StateDesignSample2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB8E8052A40C68900DF1AF9 /* StateDesignSample2.swift */; };
+		1DE7A4FD2A4826AA00A8E570 /* TwitModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE7A4FC2A4826AA00A8E570 /* TwitModel.swift */; };
+		1DE7A5012A48271700A8E570 /* TwitterHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE7A5002A48271700A8E570 /* TwitterHeader.swift */; };
+		1DE7A5032A4827CE00A8E570 /* TwitterMainScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE7A5022A4827CE00A8E570 /* TwitterMainScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -73,6 +77,7 @@
 		1D37BE1E2A46F973001AEE30 /* ToggleSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleSample.swift; sourceTree = "<group>"; };
 		1D37BE232A46FC44001AEE30 /* ImageGallery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageGallery.swift; sourceTree = "<group>"; };
 		1D37BE252A46FDA0001AEE30 /* ImageButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageButton.swift; sourceTree = "<group>"; };
+		1D37BE282A48202B001AEE30 /* StructSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructSample.swift; sourceTree = "<group>"; };
 		1D43AFCB2A44AB0E00AB8903 /* StateInputSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateInputSample.swift; sourceTree = "<group>"; };
 		1D43AFCE2A44AD7000AB8903 /* InputSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputSample.swift; sourceTree = "<group>"; };
 		1D43AFD02A44AF2000AB8903 /* InputSample2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputSample2.swift; sourceTree = "<group>"; };
@@ -97,6 +102,9 @@
 		1DB8E8012A40C3B300DF1AF9 /* StateArraySample5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateArraySample5.swift; sourceTree = "<group>"; };
 		1DB8E8032A40C4E900DF1AF9 /* StateDesignSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateDesignSample.swift; sourceTree = "<group>"; };
 		1DB8E8052A40C68900DF1AF9 /* StateDesignSample2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateDesignSample2.swift; sourceTree = "<group>"; };
+		1DE7A4FC2A4826AA00A8E570 /* TwitModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitModel.swift; sourceTree = "<group>"; };
+		1DE7A5002A48271700A8E570 /* TwitterHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterHeader.swift; sourceTree = "<group>"; };
+		1DE7A5022A4827CE00A8E570 /* TwitterMainScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterMainScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +137,8 @@
 		1D2038842A38DC0C00BE49A2 /* SwiftUITutorial */ = {
 			isa = PBXGroup;
 			children = (
+				1DE7A4FA2A48257B00A8E570 /* CloneTemplates */,
+				1D37BE272A48201C001AEE30 /* StructSample */,
 				1D37BE202A46FB0D001AEE30 /* TimerSample */,
 				1D37BE132A46DD03001AEE30 /* IntroSamples */,
 				1DB8E7F02A40B54400DF1AF9 /* StateSamples */,
@@ -185,6 +195,14 @@
 			path = TimerSample;
 			sourceTree = "<group>";
 		};
+		1D37BE272A48201C001AEE30 /* StructSample */ = {
+			isa = PBXGroup;
+			children = (
+				1D37BE282A48202B001AEE30 /* StructSample.swift */,
+			);
+			path = StructSample;
+			sourceTree = "<group>";
+		};
 		1D43AFCD2A44AD1800AB8903 /* StateInputSample */ = {
 			isa = PBXGroup;
 			children = (
@@ -238,6 +256,24 @@
 				1D37BE252A46FDA0001AEE30 /* ImageButton.swift */,
 			);
 			path = StateSamples;
+			sourceTree = "<group>";
+		};
+		1DE7A4FA2A48257B00A8E570 /* CloneTemplates */ = {
+			isa = PBXGroup;
+			children = (
+				1DE7A4FB2A48264A00A8E570 /* Twitter */,
+			);
+			path = CloneTemplates;
+			sourceTree = "<group>";
+		};
+		1DE7A4FB2A48264A00A8E570 /* Twitter */ = {
+			isa = PBXGroup;
+			children = (
+				1DE7A4FC2A4826AA00A8E570 /* TwitModel.swift */,
+				1DE7A5002A48271700A8E570 /* TwitterHeader.swift */,
+				1DE7A5022A4827CE00A8E570 /* TwitterMainScreen.swift */,
+			);
+			path = Twitter;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -332,6 +368,7 @@
 				1DB8E7E42A3DA65E00DF1AF9 /* Template2.swift in Sources */,
 				1DB8E7ED2A3DC4CF00DF1AF9 /* List.swift in Sources */,
 				1DB8E7FA2A40BB2200DF1AF9 /* StateArraySample2.swift in Sources */,
+				1D37BE292A48202B001AEE30 /* StructSample.swift in Sources */,
 				1DB8E7F42A40B62B00DF1AF9 /* ButtonElement.swift in Sources */,
 				1DB8E7F62A40B72E00DF1AF9 /* StateArraySample.swift in Sources */,
 				1D37BE262A46FDA0001AEE30 /* ImageButton.swift in Sources */,
@@ -339,6 +376,9 @@
 				1D2038862A38DC0C00BE49A2 /* SwiftUITutorialApp.swift in Sources */,
 				1D2038972A38EC9500BE49A2 /* TextElement.swift in Sources */,
 				1D43AFCF2A44AD7000AB8903 /* InputSample.swift in Sources */,
+				1DE7A5032A4827CE00A8E570 /* TwitterMainScreen.swift in Sources */,
+				1DE7A5012A48271700A8E570 /* TwitterHeader.swift in Sources */,
+				1DE7A4FD2A4826AA00A8E570 /* TwitModel.swift in Sources */,
 				1D37BE0C2A46CF92001AEE30 /* NameListSample.swift in Sources */,
 				1DB8E7EF2A3DC51B00DF1AF9 /* Products.swift in Sources */,
 				1D43AFD12A44AF2000AB8903 /* InputSample2.swift in Sources */,
