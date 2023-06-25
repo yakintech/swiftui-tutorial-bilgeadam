@@ -20,6 +20,12 @@
 		1D37BE122A46DC29001AEE30 /* RandomImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D37BE112A46DC29001AEE30 /* RandomImage.swift */; };
 		1D37BE152A46DEFC001AEE30 /* SystemImageSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D37BE142A46DEFC001AEE30 /* SystemImageSample.swift */; };
 		1D37BE172A46E235001AEE30 /* SayisalLotoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D37BE162A46E235001AEE30 /* SayisalLotoApp.swift */; };
+		1D37BE192A46EBD8001AEE30 /* ListSearchSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D37BE182A46EBD8001AEE30 /* ListSearchSample.swift */; };
+		1D37BE1B2A46EFDC001AEE30 /* RandomSizeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D37BE1A2A46EFDC001AEE30 /* RandomSizeButton.swift */; };
+		1D37BE1D2A46F2F4001AEE30 /* DiceRoller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D37BE1C2A46F2F4001AEE30 /* DiceRoller.swift */; };
+		1D37BE1F2A46F973001AEE30 /* ToggleSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D37BE1E2A46F973001AEE30 /* ToggleSample.swift */; };
+		1D37BE242A46FC44001AEE30 /* ImageGallery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D37BE232A46FC44001AEE30 /* ImageGallery.swift */; };
+		1D37BE262A46FDA0001AEE30 /* ImageButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D37BE252A46FDA0001AEE30 /* ImageButton.swift */; };
 		1D43AFCC2A44AB0E00AB8903 /* StateInputSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D43AFCB2A44AB0E00AB8903 /* StateInputSample.swift */; };
 		1D43AFCF2A44AD7000AB8903 /* InputSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D43AFCE2A44AD7000AB8903 /* InputSample.swift */; };
 		1D43AFD12A44AF2000AB8903 /* InputSample2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D43AFD02A44AF2000AB8903 /* InputSample2.swift */; };
@@ -61,6 +67,12 @@
 		1D37BE112A46DC29001AEE30 /* RandomImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomImage.swift; sourceTree = "<group>"; };
 		1D37BE142A46DEFC001AEE30 /* SystemImageSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemImageSample.swift; sourceTree = "<group>"; };
 		1D37BE162A46E235001AEE30 /* SayisalLotoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SayisalLotoApp.swift; sourceTree = "<group>"; };
+		1D37BE182A46EBD8001AEE30 /* ListSearchSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListSearchSample.swift; sourceTree = "<group>"; };
+		1D37BE1A2A46EFDC001AEE30 /* RandomSizeButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomSizeButton.swift; sourceTree = "<group>"; };
+		1D37BE1C2A46F2F4001AEE30 /* DiceRoller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceRoller.swift; sourceTree = "<group>"; };
+		1D37BE1E2A46F973001AEE30 /* ToggleSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleSample.swift; sourceTree = "<group>"; };
+		1D37BE232A46FC44001AEE30 /* ImageGallery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageGallery.swift; sourceTree = "<group>"; };
+		1D37BE252A46FDA0001AEE30 /* ImageButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageButton.swift; sourceTree = "<group>"; };
 		1D43AFCB2A44AB0E00AB8903 /* StateInputSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateInputSample.swift; sourceTree = "<group>"; };
 		1D43AFCE2A44AD7000AB8903 /* InputSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputSample.swift; sourceTree = "<group>"; };
 		1D43AFD02A44AF2000AB8903 /* InputSample2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputSample2.swift; sourceTree = "<group>"; };
@@ -117,6 +129,7 @@
 		1D2038842A38DC0C00BE49A2 /* SwiftUITutorial */ = {
 			isa = PBXGroup;
 			children = (
+				1D37BE202A46FB0D001AEE30 /* TimerSample */,
 				1D37BE132A46DD03001AEE30 /* IntroSamples */,
 				1DB8E7F02A40B54400DF1AF9 /* StateSamples */,
 				1DB8E7DE2A3D95FE00DF1AF9 /* TemplateSamples */,
@@ -157,8 +170,19 @@
 				1D37BE112A46DC29001AEE30 /* RandomImage.swift */,
 				1D37BE142A46DEFC001AEE30 /* SystemImageSample.swift */,
 				1D37BE162A46E235001AEE30 /* SayisalLotoApp.swift */,
+				1D37BE182A46EBD8001AEE30 /* ListSearchSample.swift */,
+				1D37BE1A2A46EFDC001AEE30 /* RandomSizeButton.swift */,
+				1D37BE1C2A46F2F4001AEE30 /* DiceRoller.swift */,
+				1D37BE1E2A46F973001AEE30 /* ToggleSample.swift */,
 			);
 			path = IntroSamples;
+			sourceTree = "<group>";
+		};
+		1D37BE202A46FB0D001AEE30 /* TimerSample */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TimerSample;
 			sourceTree = "<group>";
 		};
 		1D43AFCD2A44AD1800AB8903 /* StateInputSample */ = {
@@ -210,6 +234,8 @@
 				1DB8E8032A40C4E900DF1AF9 /* StateDesignSample.swift */,
 				1DB8E8052A40C68900DF1AF9 /* StateDesignSample2.swift */,
 				1D43AFCB2A44AB0E00AB8903 /* StateInputSample.swift */,
+				1D37BE232A46FC44001AEE30 /* ImageGallery.swift */,
+				1D37BE252A46FDA0001AEE30 /* ImageButton.swift */,
 			);
 			path = StateSamples;
 			sourceTree = "<group>";
@@ -287,6 +313,7 @@
 				1DB8E7EB2A3DC49400DF1AF9 /* Header.swift in Sources */,
 				1D2038882A38DC0C00BE49A2 /* ContentView.swift in Sources */,
 				1DB8E8022A40C3B300DF1AF9 /* StateArraySample5.swift in Sources */,
+				1D37BE1B2A46EFDC001AEE30 /* RandomSizeButton.swift in Sources */,
 				1DB8E7FE2A40C1FD00DF1AF9 /* StateArraySample4.swift in Sources */,
 				1DB8E7F82A40B7B700DF1AF9 /* ListElement.swift in Sources */,
 				1DB8E7E02A3D961300DF1AF9 /* Template1.swift in Sources */,
@@ -297,6 +324,9 @@
 				1DB8E7F22A40B57800DF1AF9 /* StateIntro.swift in Sources */,
 				1D43AFD52A44B3B900AB8903 /* InputArraySample.swift in Sources */,
 				1D2038952A38EC0F00BE49A2 /* VHStackSample.swift in Sources */,
+				1D37BE1F2A46F973001AEE30 /* ToggleSample.swift in Sources */,
+				1D37BE1D2A46F2F4001AEE30 /* DiceRoller.swift in Sources */,
+				1D37BE242A46FC44001AEE30 /* ImageGallery.swift in Sources */,
 				1D43AFD32A44B08A00AB8903 /* InputSample3.swift in Sources */,
 				1D37BE172A46E235001AEE30 /* SayisalLotoApp.swift in Sources */,
 				1DB8E7E42A3DA65E00DF1AF9 /* Template2.swift in Sources */,
@@ -304,6 +334,7 @@
 				1DB8E7FA2A40BB2200DF1AF9 /* StateArraySample2.swift in Sources */,
 				1DB8E7F42A40B62B00DF1AF9 /* ButtonElement.swift in Sources */,
 				1DB8E7F62A40B72E00DF1AF9 /* StateArraySample.swift in Sources */,
+				1D37BE262A46FDA0001AEE30 /* ImageButton.swift in Sources */,
 				1DB8E8042A40C4E900DF1AF9 /* StateDesignSample.swift in Sources */,
 				1D2038862A38DC0C00BE49A2 /* SwiftUITutorialApp.swift in Sources */,
 				1D2038972A38EC9500BE49A2 /* TextElement.swift in Sources */,
@@ -313,6 +344,7 @@
 				1D43AFD12A44AF2000AB8903 /* InputSample2.swift in Sources */,
 				1D43AFCC2A44AB0E00AB8903 /* StateInputSample.swift in Sources */,
 				1DB8E7FC2A40BBF800DF1AF9 /* StateArraySample3.swift in Sources */,
+				1D37BE192A46EBD8001AEE30 /* ListSearchSample.swift in Sources */,
 				1D37BE152A46DEFC001AEE30 /* SystemImageSample.swift in Sources */,
 				1D37BE0E2A46D184001AEE30 /* ProductListSample.swift in Sources */,
 				1DB8E7E22A3DA18500DF1AF9 /* PaddingSample.swift in Sources */,
