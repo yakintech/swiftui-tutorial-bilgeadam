@@ -32,6 +32,8 @@
 		1D43AFD12A44AF2000AB8903 /* InputSample2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D43AFD02A44AF2000AB8903 /* InputSample2.swift */; };
 		1D43AFD32A44B08A00AB8903 /* InputSample3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D43AFD22A44B08A00AB8903 /* InputSample3.swift */; };
 		1D43AFD52A44B3B900AB8903 /* InputArraySample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D43AFD42A44B3B900AB8903 /* InputArraySample.swift */; };
+		1D7597252A594B6D0051588C /* PickerSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D7597242A594B6D0051588C /* PickerSample.swift */; };
+		1D75972B2A59614A0051588C /* CounterSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D75972A2A59614A0051588C /* CounterSample.swift */; };
 		1D7A90FE2A48381C00362507 /* TwitLikeSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D7A90FD2A48381C00362507 /* TwitLikeSample.swift */; };
 		1D7A91002A483F6000362507 /* SliderSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D7A90FF2A483F6000362507 /* SliderSample.swift */; };
 		1D7A91032A48426400362507 /* TicTacToeGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D7A91022A48426400362507 /* TicTacToeGame.swift */; };
@@ -90,6 +92,8 @@
 		1D43AFD02A44AF2000AB8903 /* InputSample2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputSample2.swift; sourceTree = "<group>"; };
 		1D43AFD22A44B08A00AB8903 /* InputSample3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputSample3.swift; sourceTree = "<group>"; };
 		1D43AFD42A44B3B900AB8903 /* InputArraySample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputArraySample.swift; sourceTree = "<group>"; };
+		1D7597242A594B6D0051588C /* PickerSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerSample.swift; sourceTree = "<group>"; };
+		1D75972A2A59614A0051588C /* CounterSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterSample.swift; sourceTree = "<group>"; };
 		1D7A90FD2A48381C00362507 /* TwitLikeSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitLikeSample.swift; sourceTree = "<group>"; };
 		1D7A90FF2A483F6000362507 /* SliderSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderSample.swift; sourceTree = "<group>"; };
 		1D7A91022A48426400362507 /* TicTacToeGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicTacToeGame.swift; sourceTree = "<group>"; };
@@ -151,6 +155,7 @@
 		1D2038842A38DC0C00BE49A2 /* SwiftUITutorial */ = {
 			isa = PBXGroup;
 			children = (
+				1D7597292A5961290051588C /* StorageSamples */,
 				1D7A91012A48425A00362507 /* Games */,
 				1DE7A4FA2A48257B00A8E570 /* CloneTemplates */,
 				1D37BE272A48201C001AEE30 /* StructSample */,
@@ -184,6 +189,7 @@
 				1DB8E7E72A3DB4CB00DF1AF9 /* ZSample.swift */,
 				1DB8E7F32A40B62B00DF1AF9 /* ButtonElement.swift */,
 				1DB8E7F72A40B7B700DF1AF9 /* ListElement.swift */,
+				1D7597242A594B6D0051588C /* PickerSample.swift */,
 			);
 			path = UIElements;
 			sourceTree = "<group>";
@@ -231,6 +237,14 @@
 				1D37BE0D2A46D184001AEE30 /* ProductListSample.swift */,
 			);
 			path = StateInputSample;
+			sourceTree = "<group>";
+		};
+		1D7597292A5961290051588C /* StorageSamples */ = {
+			isa = PBXGroup;
+			children = (
+				1D75972A2A59614A0051588C /* CounterSample.swift */,
+			);
+			path = StorageSamples;
 			sourceTree = "<group>";
 		};
 		1D7A91012A48425A00362507 /* Games */ = {
@@ -381,6 +395,7 @@
 				1D37BE1B2A46EFDC001AEE30 /* RandomSizeButton.swift in Sources */,
 				1DB8E7FE2A40C1FD00DF1AF9 /* StateArraySample4.swift in Sources */,
 				1DB8E7F82A40B7B700DF1AF9 /* ListElement.swift in Sources */,
+				1D7597252A594B6D0051588C /* PickerSample.swift in Sources */,
 				1DB8E7E02A3D961300DF1AF9 /* Template1.swift in Sources */,
 				1DB8E7E62A3DA70A00DF1AF9 /* ImageElement.swift in Sources */,
 				1D37BE122A46DC29001AEE30 /* RandomImage.swift in Sources */,
@@ -416,6 +431,7 @@
 				1D37BE0C2A46CF92001AEE30 /* NameListSample.swift in Sources */,
 				1DB8E7EF2A3DC51B00DF1AF9 /* Products.swift in Sources */,
 				1D7A91032A48426400362507 /* TicTacToeGame.swift in Sources */,
+				1D75972B2A59614A0051588C /* CounterSample.swift in Sources */,
 				1D43AFD12A44AF2000AB8903 /* InputSample2.swift in Sources */,
 				1D7A91002A483F6000362507 /* SliderSample.swift in Sources */,
 				1D43AFCC2A44AB0E00AB8903 /* StateInputSample.swift in Sources */,
