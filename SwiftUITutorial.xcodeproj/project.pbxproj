@@ -34,6 +34,10 @@
 		1D43AFD52A44B3B900AB8903 /* InputArraySample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D43AFD42A44B3B900AB8903 /* InputArraySample.swift */; };
 		1D7597252A594B6D0051588C /* PickerSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D7597242A594B6D0051588C /* PickerSample.swift */; };
 		1D75972B2A59614A0051588C /* CounterSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D75972A2A59614A0051588C /* CounterSample.swift */; };
+		1D7597422A5A9FD20051588C /* MetalBands.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D7597412A5A9FD20051588C /* MetalBands.swift */; };
+		1D7597442A5AA0490051588C /* Detail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D7597432A5AA0490051588C /* Detail.swift */; };
+		1D7597492A5ABCEF0051588C /* CounterParent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D7597482A5ABCEF0051588C /* CounterParent.swift */; };
+		1D75974B2A5ABD010051588C /* CounterChild.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D75974A2A5ABD010051588C /* CounterChild.swift */; };
 		1D7A90FE2A48381C00362507 /* TwitLikeSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D7A90FD2A48381C00362507 /* TwitLikeSample.swift */; };
 		1D7A91002A483F6000362507 /* SliderSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D7A90FF2A483F6000362507 /* SliderSample.swift */; };
 		1D7A91032A48426400362507 /* TicTacToeGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D7A91022A48426400362507 /* TicTacToeGame.swift */; };
@@ -94,6 +98,10 @@
 		1D43AFD42A44B3B900AB8903 /* InputArraySample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputArraySample.swift; sourceTree = "<group>"; };
 		1D7597242A594B6D0051588C /* PickerSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerSample.swift; sourceTree = "<group>"; };
 		1D75972A2A59614A0051588C /* CounterSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterSample.swift; sourceTree = "<group>"; };
+		1D7597412A5A9FD20051588C /* MetalBands.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetalBands.swift; sourceTree = "<group>"; };
+		1D7597432A5AA0490051588C /* Detail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Detail.swift; sourceTree = "<group>"; };
+		1D7597482A5ABCEF0051588C /* CounterParent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterParent.swift; sourceTree = "<group>"; };
+		1D75974A2A5ABD010051588C /* CounterChild.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterChild.swift; sourceTree = "<group>"; };
 		1D7A90FD2A48381C00362507 /* TwitLikeSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitLikeSample.swift; sourceTree = "<group>"; };
 		1D7A90FF2A483F6000362507 /* SliderSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderSample.swift; sourceTree = "<group>"; };
 		1D7A91022A48426400362507 /* TicTacToeGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicTacToeGame.swift; sourceTree = "<group>"; };
@@ -155,6 +163,8 @@
 		1D2038842A38DC0C00BE49A2 /* SwiftUITutorial */ = {
 			isa = PBXGroup;
 			children = (
+				1D7597472A5ABCDF0051588C /* BindingSample */,
+				1D7597402A5A9FB60051588C /* NavigationSample */,
 				1D7597292A5961290051588C /* StorageSamples */,
 				1D7A91012A48425A00362507 /* Games */,
 				1DE7A4FA2A48257B00A8E570 /* CloneTemplates */,
@@ -245,6 +255,24 @@
 				1D75972A2A59614A0051588C /* CounterSample.swift */,
 			);
 			path = StorageSamples;
+			sourceTree = "<group>";
+		};
+		1D7597402A5A9FB60051588C /* NavigationSample */ = {
+			isa = PBXGroup;
+			children = (
+				1D7597412A5A9FD20051588C /* MetalBands.swift */,
+				1D7597432A5AA0490051588C /* Detail.swift */,
+			);
+			path = NavigationSample;
+			sourceTree = "<group>";
+		};
+		1D7597472A5ABCDF0051588C /* BindingSample */ = {
+			isa = PBXGroup;
+			children = (
+				1D7597482A5ABCEF0051588C /* CounterParent.swift */,
+				1D75974A2A5ABD010051588C /* CounterChild.swift */,
+			);
+			path = BindingSample;
 			sourceTree = "<group>";
 		};
 		1D7A91012A48425A00362507 /* Games */ = {
@@ -398,9 +426,11 @@
 				1D7597252A594B6D0051588C /* PickerSample.swift in Sources */,
 				1DB8E7E02A3D961300DF1AF9 /* Template1.swift in Sources */,
 				1DB8E7E62A3DA70A00DF1AF9 /* ImageElement.swift in Sources */,
+				1D75974B2A5ABD010051588C /* CounterChild.swift in Sources */,
 				1D37BE122A46DC29001AEE30 /* RandomImage.swift in Sources */,
 				1DB8E8062A40C68900DF1AF9 /* StateDesignSample2.swift in Sources */,
 				1DB8E8002A40C2E500DF1AF9 /* CounterState.swift in Sources */,
+				1D7597422A5A9FD20051588C /* MetalBands.swift in Sources */,
 				1DE7A5072A48320700A8E570 /* TwitContent.swift in Sources */,
 				1D7A90FE2A48381C00362507 /* TwitLikeSample.swift in Sources */,
 				1DB8E7F22A40B57800DF1AF9 /* StateIntro.swift in Sources */,
@@ -419,6 +449,7 @@
 				1DB8E7F62A40B72E00DF1AF9 /* StateArraySample.swift in Sources */,
 				1D37BE262A46FDA0001AEE30 /* ImageButton.swift in Sources */,
 				1DB8E8042A40C4E900DF1AF9 /* StateDesignSample.swift in Sources */,
+				1D7597492A5ABCEF0051588C /* CounterParent.swift in Sources */,
 				1D2038862A38DC0C00BE49A2 /* SwiftUITutorialApp.swift in Sources */,
 				1D2038972A38EC9500BE49A2 /* TextElement.swift in Sources */,
 				1D43AFCF2A44AD7000AB8903 /* InputSample.swift in Sources */,
@@ -438,6 +469,7 @@
 				1DB8E7FC2A40BBF800DF1AF9 /* StateArraySample3.swift in Sources */,
 				1D37BE192A46EBD8001AEE30 /* ListSearchSample.swift in Sources */,
 				1D37BE152A46DEFC001AEE30 /* SystemImageSample.swift in Sources */,
+				1D7597442A5AA0490051588C /* Detail.swift in Sources */,
 				1D37BE0E2A46D184001AEE30 /* ProductListSample.swift in Sources */,
 				1DB8E7E22A3DA18500DF1AF9 /* PaddingSample.swift in Sources */,
 				1D37BE102A46D66E001AEE30 /* CelciusToFahrenheit.swift in Sources */,
