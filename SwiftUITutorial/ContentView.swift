@@ -13,7 +13,10 @@ struct ContentView: View {
 
     var body: some View {
         VStack {
-         UserList()
+            NavigationView{
+               AddProductScreen()
+            }
+       
         }
     }
 }

@@ -65,6 +65,10 @@
 		1DB8E8022A40C3B300DF1AF9 /* StateArraySample5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB8E8012A40C3B300DF1AF9 /* StateArraySample5.swift */; };
 		1DB8E8042A40C4E900DF1AF9 /* StateDesignSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB8E8032A40C4E900DF1AF9 /* StateDesignSample.swift */; };
 		1DB8E8062A40C68900DF1AF9 /* StateDesignSample2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB8E8052A40C68900DF1AF9 /* StateDesignSample2.swift */; };
+		1DC182D02A6BC2D4005DC475 /* ProductList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC182CF2A6BC2D4005DC475 /* ProductList.swift */; };
+		1DC182D32A6BC336005DC475 /* ProductModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC182D22A6BC336005DC475 /* ProductModel.swift */; };
+		1DC182D52A6BD1F6005DC475 /* ProductDetailScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC182D42A6BD1F6005DC475 /* ProductDetailScreen.swift */; };
+		1DC182D72A6BDED0005DC475 /* AddProductScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC182D62A6BDED0005DC475 /* AddProductScreen.swift */; };
 		1DE7A4FD2A4826AA00A8E570 /* TwitModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE7A4FC2A4826AA00A8E570 /* TwitModel.swift */; };
 		1DE7A5012A48271700A8E570 /* TwitterHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE7A5002A48271700A8E570 /* TwitterHeader.swift */; };
 		1DE7A5032A4827CE00A8E570 /* TwitterMainScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE7A5022A4827CE00A8E570 /* TwitterMainScreen.swift */; };
@@ -133,6 +137,10 @@
 		1DB8E8012A40C3B300DF1AF9 /* StateArraySample5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateArraySample5.swift; sourceTree = "<group>"; };
 		1DB8E8032A40C4E900DF1AF9 /* StateDesignSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateDesignSample.swift; sourceTree = "<group>"; };
 		1DB8E8052A40C68900DF1AF9 /* StateDesignSample2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateDesignSample2.swift; sourceTree = "<group>"; };
+		1DC182CF2A6BC2D4005DC475 /* ProductList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductList.swift; sourceTree = "<group>"; };
+		1DC182D22A6BC336005DC475 /* ProductModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductModel.swift; sourceTree = "<group>"; };
+		1DC182D42A6BD1F6005DC475 /* ProductDetailScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailScreen.swift; sourceTree = "<group>"; };
+		1DC182D62A6BDED0005DC475 /* AddProductScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddProductScreen.swift; sourceTree = "<group>"; };
 		1DE7A4FC2A4826AA00A8E570 /* TwitModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitModel.swift; sourceTree = "<group>"; };
 		1DE7A5002A48271700A8E570 /* TwitterHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterHeader.swift; sourceTree = "<group>"; };
 		1DE7A5022A4827CE00A8E570 /* TwitterMainScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterMainScreen.swift; sourceTree = "<group>"; };
@@ -249,10 +257,14 @@
 		1D420A262A6703960054C434 /* AlamofireSample */ = {
 			isa = PBXGroup;
 			children = (
+				1DC182D12A6BC32B005DC475 /* Models */,
 				1D420A272A6703C40054C434 /* CategoryList.swift */,
 				1D420A292A670C3A0054C434 /* AddCategory.swift */,
 				1D420A2B2A670F600054C434 /* WeatherSample.swift */,
 				1D420A2D2A6710990054C434 /* UserList.swift */,
+				1DC182CF2A6BC2D4005DC475 /* ProductList.swift */,
+				1DC182D42A6BD1F6005DC475 /* ProductDetailScreen.swift */,
+				1DC182D62A6BDED0005DC475 /* AddProductScreen.swift */,
 			);
 			path = AlamofireSample;
 			sourceTree = "<group>";
@@ -345,6 +357,14 @@
 				1D7A90FD2A48381C00362507 /* TwitLikeSample.swift */,
 			);
 			path = StateSamples;
+			sourceTree = "<group>";
+		};
+		1DC182D12A6BC32B005DC475 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1DC182D22A6BC336005DC475 /* ProductModel.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 		1DE7A4FA2A48257B00A8E570 /* CloneTemplates */ = {
@@ -445,6 +465,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1DC182D52A6BD1F6005DC475 /* ProductDetailScreen.swift in Sources */,
 				1DB8E7EB2A3DC49400DF1AF9 /* Header.swift in Sources */,
 				1D2038882A38DC0C00BE49A2 /* ContentView.swift in Sources */,
 				1DB8E8022A40C3B300DF1AF9 /* StateArraySample5.swift in Sources */,
@@ -481,9 +502,11 @@
 				1D37BE262A46FDA0001AEE30 /* ImageButton.swift in Sources */,
 				1DB8E8042A40C4E900DF1AF9 /* StateDesignSample.swift in Sources */,
 				1D7597492A5ABCEF0051588C /* CounterParent.swift in Sources */,
+				1DC182D72A6BDED0005DC475 /* AddProductScreen.swift in Sources */,
 				1D2038862A38DC0C00BE49A2 /* SwiftUITutorialApp.swift in Sources */,
 				1D2038972A38EC9500BE49A2 /* TextElement.swift in Sources */,
 				1D43AFCF2A44AD7000AB8903 /* InputSample.swift in Sources */,
+				1DC182D02A6BC2D4005DC475 /* ProductList.swift in Sources */,
 				1DE7A5032A4827CE00A8E570 /* TwitterMainScreen.swift in Sources */,
 				1D420A2E2A6710990054C434 /* UserList.swift in Sources */,
 				1DE7A5012A48271700A8E570 /* TwitterHeader.swift in Sources */,
@@ -507,6 +530,7 @@
 				1D37BE102A46D66E001AEE30 /* CelciusToFahrenheit.swift in Sources */,
 				1D37BE0A2A46CE1A001AEE30 /* InputSample4.swift in Sources */,
 				1DB8E7E82A3DB4CB00DF1AF9 /* ZSample.swift in Sources */,
+				1DC182D32A6BC336005DC475 /* ProductModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
